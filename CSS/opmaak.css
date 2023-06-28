@@ -1,7 +1,69 @@
 body {
-  background-color: lightblue;
+  background-color: white;
+  border: 5px solid black;
 }
 
-h1 {
-  color: yellow;
+ul {
+  display: flex;
+  justify-content: space-around; /* or space-between */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+li {
+  float: left;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Titel {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 50px;
+  margin-bottom: 70px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(209, 209, 224);
+  font-weight: bold;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  bottom: 18px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+img {
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: 50px;
 }
