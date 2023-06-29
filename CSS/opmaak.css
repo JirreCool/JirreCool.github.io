@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #283845;
   border: 5px solid black;
 }
 
@@ -17,15 +17,21 @@ body {
 
 .nav_a {
   display: flex;
-  color: white;
+  color: #FBF1DA;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid #A19668;
+}
+
+.Hoofdtitel {
+  color: #EE7C2F;
+  text-align: center;
 }
 
 .Titel {
   text-align: center;
+  color: #F19455;
 }
 
 .roundedcorners {
@@ -36,15 +42,20 @@ body {
   border-radius: 25px;
   padding: 50px;
   margin-bottom: 70px;
+  color: #202C39;
+  background-color: #F2D492;
+  font-weight: bold;
 }
 
 h2 {
   text-align: center;
+  color: #F29559;
 }
 
 #yougothacked {
   text-align: center;
   margin-top: 400px;
+  color: #F29559;
 }
 
 footer {
@@ -52,7 +63,7 @@ footer {
   bottom: 0px;
   width: 100%;
   text-align: center;
-  background-color: rgb(209, 209, 224);
+  background-color: #ECBE5B;
   font-weight: bold;
   z-index: 2;
 }
@@ -75,6 +86,10 @@ aside {
   top: 210px;
   left: 1100px;
   display: inline-block;
+
+  color: #202C39;
+  background-color: #F2D492;
+  font-weight: bold;
 }
 
 #badge_p {
@@ -99,4 +114,26 @@ aside {
   width: 1000px;
 
   align-items: center;
+}
+
+#discordo {
+  border: 3px solid black;
+  border-radius: 25px;
+
+  width: 200px;
+
+  position: absolute;
+  left: 1650px;
+  top: 450px;
+}
+
+#github {
+  border: 3px solid black;
+  border-radius: 25px;
+
+  width: 200px;
+
+  position: absolute;
+  left: 1650px;
+  top: 700px;
 }
